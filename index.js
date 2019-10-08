@@ -33,3 +33,10 @@ function dailyRoutine(array){
   }
 }
 dailyRoutine(routine);
+// solution does not push values into an array
+
+function dailyRoutineTakeTwo(dogName,dogBreed){
+routine.map(fntion=>fntion(dogName,dogBreed));
+}
+
+
