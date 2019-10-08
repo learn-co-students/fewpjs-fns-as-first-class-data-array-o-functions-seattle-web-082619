@@ -26,7 +26,8 @@ function unleashDog(dogName,dogBreed) {
 
 let routine = [wakeDog,leashDog,throwFrisbee,walkHome,walkHome,unleashDog];
 
-function dailyRoutine(array){
+
+function dailyRoutine(array){ 
   for (let i =0; i <array.length; i++){
     array[i]("Sunny","shep");
   }
